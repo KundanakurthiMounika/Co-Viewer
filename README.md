@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className="App">
-     # <h1>PDF Co-Viewer</h1>
+     <h1>PDF Co-Viewer</h1>
       <div style={{ marginBottom: '10px' }}>
         <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage <= 1}>
           Previous Page
